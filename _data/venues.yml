@@ -4,3 +4,7 @@
 
 "PhysRev":
   url: https://journals.aps.org/
+
+"Best Paper Award":
+  # url: https://aapt.scitation.org/journal/ajp
+  color: "#00369f"

@@ -32,7 +32,20 @@
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
         <!-- Title -->
-        <div class="title">{{entry.title}}</div>
+        <div class="title">
+          {{entry.title}} 
+          {%- if entry.award -%}
+            {%- if site.data.venues[entry.award] -%}
+              {%- assign venue_style = nil -%}
+              {%- if site.data.venues[entry.award].color != blank -%}
+                {%- assign venue_style = site.data.venues[entry.award].color | prepend: 'style="background-color:' | append: '"' -%}
+              {%- endif -%}
+              <abbr class="badge" {% if venue_style %}{{venue_style}}{% endif %}><a>{{entry.award}}</a></abbr>
+            {%- else -%}
+              <abbr class="badge">{{entry.award}}</abbr>
+            {%- endif -%}
+          {%- endif -%}
+        </div>
         <!-- Author -->
         <div class="author">
         {% assign author_array_size = entry.author_array | size %}
