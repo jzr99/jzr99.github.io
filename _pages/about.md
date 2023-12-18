@@ -20,6 +20,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a third-year Master student at ETH Zürich. My research interests mainly lie in the intersection between computer vision and computer graphics, especially in digital humans and 3D vision.
+I am a third-year Master student at ETH Zürich. My research interests mainly lie in the intersection between computer vision and computer graphics, especially in digital humans and 3D vision. Besides, I am also interested in multimodal deep learning, such as conditional music generation. 
 
 During my master, I did my semester project on 3D human reconstruction in the AIT at ETH Zurich, supervised by [Chen Guo](https://ait.ethz.ch/people/cheguo), Dr. [Jie Song](https://ait.ethz.ch/people/song), and Prof. [Otmar Hilliges](https://ait.ethz.ch/people/hilliges). Prior to ETH, I did my bachelor's at Beihang University. I was lucky to work with Prof. [Si Liu](https://colalab.net/people) at Beihang University during my gap year.
+
+I am now seeking a PhD position. If you are interested, feel free to send me an email.
