@@ -7,7 +7,7 @@ subtitle: Master student at ETH Zurich
 
 profile:
   align: right
-  image: selfie.JPG
+  image: selfie_low.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
