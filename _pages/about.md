@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Master student at ETH Zurich
+subtitle: Incoming PhD Student at Oxford
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
@@ -22,6 +22,4 @@ social: true  # includes social icons at the bottom of the page
 
 I am a third-year Master student at ETH Zürich. My research interests mainly lie in the intersection between computer vision and computer graphics, especially in digital humans and 3D vision. Besides, I am also interested in multimodal deep learning, such as conditional music generation. 
 
-During my master, I did my semester project on 3D human reconstruction in the AIT at ETH Zurich, supervised by [Chen Guo](https://ait.ethz.ch/people/cheguo), Dr. [Jie Song](https://ait.ethz.ch/people/song), and Prof. [Otmar Hilliges](https://ait.ethz.ch/people/hilliges). Prior to ETH, I did my bachelor's at Beihang University. I was lucky to work with Prof. [Si Liu](https://colalab.net/people) at Beihang University during my gap year.
-
-I am now seeking a PhD position. If you are interested, feel free to send me an email.
+During my master study at ETH Zurich, I did my semester project on 3D human reconstruction in the AIT at ETH Zurich, supervised by [Chen Guo](https://ait.ethz.ch/people/cheguo), Dr. [Jie Song](https://ait.ethz.ch/people/song), and Prof. [Otmar Hilliges](https://ait.ethz.ch/people/hilliges). Also, I finished my master thesis "Distilling Neural Fields for Real-time Animatable Avatar Relighting" under the supervision of [Shaofei Wang](https://taconite.github.io/) and Prof. [Siyu Tang](https://vlg.inf.ethz.ch/team/Prof-Dr-Siyu-Tang.html). Prior to ETH, I did my bachelor's at Beihang University. I was lucky to work with Prof. [Si Liu](https://colalab.net/people) at Beihang University during my gap year.
