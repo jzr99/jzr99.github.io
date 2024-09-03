@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Incoming PhD Student at Oxford
+subtitle: Incoming PhD Student at Oxford VGG
 # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
