@@ -1,5 +1,33 @@
 ---
 ---
+@inproceedings{DNF-Avatar,
+author = {Jiang, Zeren and Wang, Shaofei and Tang, Siyu},
+title = {DNF-Avatar: Distilling Neural Fields for Real-time Animatable Avatar Relighting},
+abstract = {Creating relightable and animatable human avatars from monocular videos is a rising research topic with a range of applications, e.g. virtual reality, sports, and video games. Previous works utilize neural fields together with physically based rendering (PBR), to estimate geometry and disentangle appearance properties of human avatars. However, one drawback of these methods is the slow rendering speed due to the expensive Monte Carlo ray tracing. To tackle this problem, we proposed to distill the knowledge from implicit neural fields (teacher) to explicit 2D Gaussian splatting (student) representation to take advantage of the fast rasterization property of Gaussian splatting. To avoid ray-tracing, we employ the split-sum approximation for PBR appearance. We also propose novel part-wise ambient occlusion probes for shadow computation. Shadow prediction is achieved by querying these probes only once per pixel, which paves the way for real-time relighting of avatars. These techniques combined give high-quality relighting results with realistic shadow effects. Our experiments demonstrate that the proposed student model achieves comparable relighting results with our teacher model while being 370 times faster at inference time, achieving a 67 FPS rendering speed.},
+booktitle = {ArXiv preprint},
+month     = {April},
+year      = {2025},
+pdf={dnf-avatar.pdf},
+website={https://jzr99.github.io/DNF-Avatar/},
+selected={true},
+preview={dnf-avatar-logo.png},
+code={https://github.com/jzr99/DNF-Avatar/},
+}
+
+@inproceedings{Geo4D,
+author = {Jiang, Zeren and Zheng, Chuanxia and Laina, Iro and Larlus, Diane and Vedaldi, Andrea},
+title = {Geo4D: Leveraging Video Generators for Geometric 4D Scene Reconstruction},
+abstract = {We introduce Geo4D, a method to repurpose video diffusion models for monocular 3D reconstruction of dynamic scenes. By leveraging the strong dynamic prior captured by such video models, Geo4D can be trained using only synthetic data while generalizing well to real data in a zero-shot manner. Geo4D predicts several complementary geometric modalities, namely point, depth, and ray maps. It uses a new multi-modal alignment algorithm to align and fuse these modalities, as well as multiple sliding windows, at inference time, thus obtaining robust and accurate 4D reconstruction of long videos. Extensive experiments across multiple benchmarks show that Geo4D significantly surpasses state-of-the-art video depth estimation methods, including recent methods such as MonST3R, which are also designed to handle dynamic scenes.},
+booktitle = {ArXiv preprint},
+month     = {April},
+year      = {2025},
+pdf={geo4d_v1.pdf},
+website={https://geo4d.github.io/},
+selected={true},
+preview={geo4d_logo.png},
+code={https://github.com/jzr99/Geo4D/},
+}
+
 @inproceedings{MultiPly,
 author = {Jiang*, Zeren and Guo*, Chen and Kaufmann, Manuel and Jiang, Tianjian and Valentin, Julien and Hilliges, Otmar and Song, Jie},
 title = {MultiPly: Reconstruction of Multiple People from Monocular Video in the Wild },
