@@ -1,5 +1,34 @@
 ---
 ---
+
+@inproceedings{Geo4D,
+author = {Jiang, Zeren and Zheng, Chuanxia and Laina, Iro and Larlus, Diane and Vedaldi, Andrea},
+title = {Mesh4D: 4D Mesh Reconstruction and Tracking from Monocular Video},
+abstract = {We propose Mesh4D, a feed-forward model for monocular 4D mesh reconstruction. Given a monocular video of a dynamic object, our model reconstructs the object’s complete 3D shape and motion, represented as a deformation field. Our key contribution is a compact latent space that encodes the entire animation sequence in a single pass. This latent space is learned by an autoencoder that, during training, is guided by the skeletal structure of the training objects, providing strong priors on plausible deformations. Crucially, skeletal information is not required at inference time. The encoder employs spatio-temporal attention, yielding a more stable representation of the object’s overall deformation. Building on this representation, we train a latent diffusion model that, conditioned on the input video and the mesh reconstructed from the first frame, predicts the full animation in one shot. We evaluate Mesh4D on reconstruction and novel view synthesis benchmarks, outperforming prior methods in recovering accurate 3D shape and deformation.},
+booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month     = {June},
+year      = {2026},
+pdf={mesh4d.pdf},
+website={https://mesh-4d.github.io/},
+selected={true},
+preview={mesh4d_logo_new.png},
+code={https://github.com/jzr99/Mesh4D},
+}
+
+@inproceedings{PVSM,
+author = {Wu, Zirui and Jiang, Zeren and Oswald, Martin and Song, Jie},
+title = {From Rays to Projections: Better Inputs for Feed-Forward View Synthesis},
+abstract = {Feed-forward view synthesis models predict a novel view in a single pass with minimal 3D inductive bias. Existing works encode cameras as Plücker ray maps, which tie predictions to the arbitrary world coordinate gauge and make them sensitive to small camera transformations, thereby undermining geometric consistency. In this paper, we ask what inputs best condition a model for robust and consistent view synthesis. We propose projective conditioning, which replaces raw camera parameters with a target-view projective cue that provides a stable 2D input. This reframes the task from a brittle geometric regression problem in ray space to a well-conditioned target-view image-to-image translation problem. Additionally, we introduce a masked autoencoding pretraining strategy tailored to this cue, enabling the use of large-scale uncalibrated data for pretraining. Our method shows improved fidelity and stronger cross-view consistency compared to ray-conditioned baselines on our view-consistency benchmark. It also achieves state-of-the-art quality on standard novel view synthesis benchmarks.},
+booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month     = {June},
+year      = {2026},
+pdf={pvsm.pdf},
+website={https://wuzirui.github.io/pvsm-web/},
+selected={true},
+preview={pvsm_teaser.png},
+code={https://github.com/wuzirui/pvsm},
+}
+
 @inproceedings{DNF-Avatar,
 author = {Jiang, Zeren and Wang, Shaofei and Tang, Siyu},
 title = {DNF-Avatar: Distilling Neural Fields for Real-time Animatable Avatar Relighting},
