@@ -1,6 +1,35 @@
 ---
 ---
 
+@inproceedings{Gen4P,
+author = {Xia, Yitong and Jiang, Zeren and Zheng, Chuanxia},
+title = {Gen4P: Video Generators are 4D Perceivers},
+abstract = {We introduce Gen4P, a unified framework for recovering 4D geometry and motion from monocular video. We show that a pretrained video generator can be repurposed into a feed-forward 4D perceiver without iterative denoising. Building on on-demand querying, Gen4P processes clean video latents in a single encoder pass and predicts the requested 4D attributes through a lightweight cross-attention decoder. The on-demand query formulation enables flexible spatial sampling, and our proposed continuous-time queries further provide temporal flexibility. To strengthen geometric knowledge, we propose a straightforward plug-in solution by incorporating a pretrained video-depth LoRA as a frozen geometry prior, improving overall performance without adding extra trainable parameters. Gen4P achieves state-of-the-art or competitive performance on tasks of 3D point tracking, video depth and camera pose estimation. Qualitative results on in-the-wild videos illustrate its capability of tracking complex motion while maintaining the delicate structure. Together, these results demonstrate the potential of video generative pretraining for unified 4D perception.},
+booktitle = {Submission},
+month     = {October},
+year      = {2026},
+arxiv={2610.22371},
+pdf={https://arxiv.org/pdf/2610.22371},
+website={https://gen4p.github.io/},
+selected={true},
+preview={gen4p_logo.png},
+code={https://github.com/yitongx/Gen4P},
+}
+
+@inproceedings{P3WAM,
+author = {Wu, Zirui and Guo, Chen and Jiang, Tianjian and Jiang, Zeren and Li, Zeming and Yang, Lingchen and Duan, Longteng and Xue, Ying and Yin, Handi and Gao, Shenyuan and Oswald, Martin R. and Zhang, Jun and Tan, Ping and Song, Jie},
+title = {Perceive, Predict, and Plan: A Unified World Action Model for Egocentric Dexterous Manipulation},
+abstract = {We introduce P³-WAM, a unified world action model for egocentric dexterous manipulation that learns 3D perception, action-conditioned prediction, and goal-directed planning through three complementary modes: Perceive, which reconstructs articulated hand motion and camera trajectories from video; Predict, which generates visual futures under prescribed actions; and Plan, which jointly generates action trajectories and their anticipated visual consequences conditioned on an initial image, a language instruction, and an optional visual goal. Our model integrates a compact, structured 3D action representation into a pretrained video diffusion transformer through a mixture-of-transformers architecture with shared base weights, modality-specific adaptation, and bidirectional visual-action attention. Randomized modality visibility lets video and 3D actions serve as either conditioning context or prediction targets across the three modes. Experiments show that unified training improves all three capabilities over single-mode training, including gains in planning quality under a vision-language model evaluation. Through unified training, our model outperforms specialized baselines on 3D hand reconstruction and action-conditioned video prediction across four datasets, while producing goal-directed manipulation videos with stronger instruction adherence and action progression than video-generation baselines.},
+booktitle = {Submission},
+month     = {October},
+year      = {2026},
+arxiv={2610.22363},
+pdf={https://arxiv.org/pdf/2610.22363},
+website={https://p3-wam.pages.dev/},
+selected={true},
+preview={p3wam_overview.png},
+}
+
 @inproceedings{Syn4D,
 author = {Jiang*, Zeren and Lan*, Yushi and Luo, Yihang and Deng, Yufan and Lai, Zihang and Sucar, Edgar and Rupprecht, Christian and Laina, Iro and Larlus, Diane and Zheng, Chuanxia and Vedaldi, Andrea},
 title = {Syn4D: A Multiview Synthetic 4D Dataset},
