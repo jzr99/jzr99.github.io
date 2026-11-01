@@ -39,6 +39,20 @@ layout: default
 
           <div class="clearfix">
             {{ content }}
+
+            <!-- Social -->
+            {%- if page.social %}
+            <div class="social profile-social">
+              <div class="contact-icons">
+                {% include social.html %}
+              </div>
+              {%- if site.contact_note %}
+              <div class="contact-note">
+                {{ site.contact_note }}
+              </div>
+              {%- endif %}
+            </div>
+            {%- endif %}
           </div>
 
           <!-- News -->
@@ -59,20 +73,6 @@ layout: default
             <h2><a style="color: inherit;">Publications</a></h2>
             <p class="post-description"><span class="star">*</span> denotes equal contribution</p>
             {%- include selected_papers.html %}
-          {%- endif %}
-
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
           {%- endif %}
         </article>
 

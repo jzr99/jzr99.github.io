@@ -373,6 +373,18 @@ blockquote {
   }
 }
 
+.profile-social {
+  margin: 0.5rem 0 1.5rem;
+
+  .contact-icons {
+    font-size: 2rem;
+
+    a {
+      margin: 0 0.375rem;
+    }
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;

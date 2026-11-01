@@ -17,7 +17,7 @@ profile:
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true  # includes social icons below the bio
 ---
 
 I am a third-year DPhil student (generously funded by [Clarendon Scholarship](https://www.ox.ac.uk/clarendon)) at Oxford VGG, supervised by Prof. [Andrea Vedaldi](https://www.robots.ox.ac.uk/~vedaldi/) and Dr. [Iro Laina](https://eng.ox.ac.uk/people/iro-laina/). I also work closely with Dr. [Chuanxia Zheng](https://chuanxiaz.com/) and Dr. [Diane Larlus](https://dlarlus.github.io/). My research interests mainly lie in modeling and manipulating the 4D world. 
