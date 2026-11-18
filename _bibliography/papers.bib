@@ -16,6 +16,21 @@ preview={holo4d_logo.png},
 code={https://github.com/NIRVANALAN/Holo4D},
 }
 
+@inproceedings{Track4D,
+author = {Lan, Yushi and Jiang, Zeren and Li, Kelvin and Pan, Xingang and Zheng, Chuanxia and Vedaldi, Andrea},
+title = {Track4D: Representing Dense 3D Tracking for Video Diffusion Models},
+abstract = {We study how to repurpose video diffusion models (VDMs), pretrained on millions of videos, for dense 3D point tracking, where training data is scarce. Doing so is non-trivial, as it requires representing 3D tracks as video-like signals that may lie outside the natural-video distribution on which the VDM was trained. We thus systematically assess the effectiveness of two such video representations. The first, Residual 3D Tracking Video (RTV), encodes per-pixel 3D offsets relative to a query frame and allows recovery of 3D trajectories directly from the generated video. The second, Normalized Coordinate Map Video (NCMV), labels each pixel with a canonical coordinate invariant through time. This is closer to a natural video and easier for the VDM to learn, but requires additional post-processing with an off-the-shelf 2D tracker to recover 3D tracks. RTV tracks more accurately, while NCMV shows that a VDM can generate dense correspondence as a video. We instantiate both representations with LoRA adaptation of a frozen Wan backbone, conditioned on point maps from an off-the-shelf 3D reconstructor as a geometric scaffold. Trained with a single dynamic 3D tracking dataset, Track4D achieves competitive zero-shot tracking on four real and synthetic benchmarks. A regression readout that bypasses the video VAE and uses additional training data brings further improvement, demonstrating the potential of this direction for dense 3D tracking. We hope our analysis will inspire future work that leverages VDM priors for dense 3D tracking and 4D reconstruction.},
+booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+month     = {December},
+year      = {2026},
+arxiv={2611.15287},
+pdf={https://arxiv.org/pdf/2611.15287},
+website={https://nirvanalan.github.io/projects/track4d/},
+selected={true},
+preview={track4d_logo.png},
+code={https://github.com/NIRVANALAN/Track4D},
+}
+
 @inproceedings{Gen4P,
 author = {Xia, Yitong and Jiang, Zeren and Zheng, Chuanxia},
 title = {Gen4P: Video Generators are 4D Perceivers},
